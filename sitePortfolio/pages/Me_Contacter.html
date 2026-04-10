@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Stanislav Bondar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodycontact">
+    <main>
+        <div class="form">
+            <form action="traitement.php" method="post">
+                    <h1>Me Contacter</h1>
+                <div class="input">
+                    <label for="name">Votre Nom</label><br>
+                    <input type="text" placeholder="Nom" required><br>
+                    <label for="surname">Votre Prénom</label><br>
+                    <input type="text" placeholder="Prénom (facultatif)"><br>
+                    <label for="email">Adresse e-mail</label><br>
+                    <input type="email" placeholder="Email" required><br>
+                    <label for="Sujet">Sujet du message</label><br>
+                    <input type="text" placeholder="Sujet" required><br>
+                    <label for="Sujet">Message</label><br>
+                    <textarea rows="10" cols="30"  maxlength="700" placeholder="Message...(700 caractères)"></textarea><br>
+                </div>
+                <div class="button">
+                    <input type="file" id="field-id" accept=" *.* "></br>
+                    <input type="submit" value="Soumettre">
+                </div>
+            </form>
+        </div>
+    </main>
+</html>

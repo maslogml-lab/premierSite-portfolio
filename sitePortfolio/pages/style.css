@@ -1,0 +1,202 @@
+body {
+font-size: 20px;
+font-family: "Poppins" , sans-serif;
+background: url(https://th.bing.com/th/id/R.64f43fd75ece33eaaee6f9f212d3db6b?rik=8jQK8s0AbVJc%2fw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f4%2fc%2f178647.jpg&ehk=OdiM8DdSNcTnx2CVRV6vsPnpwJgBxL%2boNeg%2fAPtKyyY%3d&risl=&pid=ImgRaw&r=0);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header h1 {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    border-radius: 5px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    border-width: 1px solid;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    background-color: rgba(255, 192, 203, 0.459);
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    margin-bottom: 5px;
+}
+nav a
+{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+main {
+    display: flex;
+}
+
+/*Style accueil*/
+
+.divacc .presenter {
+    display: flex;
+    flex-direction: column;
+    border-width: 1px solid;
+    border-radius: 5px;
+    background-color: rgba(255, 192, 203, 0.459);
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    padding: 10px;
+    color:#6200ff ;
+}
+.divacc .objectifs {
+    display: flex;
+    flex-direction: column;
+    border-width: 1px solid;
+    border-radius: 5px;
+    background-color: rgba(255, 192, 203, 0.459);
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    margin-left: 10px;
+    padding: 10px;
+    color:#6200ff ;
+}
+.divacc{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+/*Style CV*/
+
+header .contacter{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    border-radius: 5px;
+    color: white;
+    padding-right: 15px;
+    background-color: rgba(255, 192, 203, 0.459);
+}
+
+.divdcv{
+    background-color: rgba(255, 192, 203, 0.459);
+    margin-left: 10px;
+    padding: 10px;
+    color:#6200ff ;
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    border-radius: 10px;
+}
+.divgcv{
+    background-color: rgba(255, 192, 203, 0.459);
+    padding: 10px;
+    color:#6200ff ;
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    border-radius: 10px;
+}
+
+/*Style Loisirs*/
+
+.tryhard {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    border-radius: 5px;
+    background-color: rgba(255, 192, 203, 0.459);
+    margin-right: 5px;
+    padding: 10px;
+    color:#6200ff ;
+}
+.detente {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    border-radius: 5px;
+    background-color: rgba(255, 192, 203, 0.459);
+    width: 100%;
+    padding: 10px;
+    color:#6200ff ;
+}
+
+/*Style Contacter*/
+
+.bodycontact {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 20px;
+}
+.form h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.form .input input{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.473);
+}
+.form .button input{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+.form textarea{
+    width: 100%;
+    border-radius: 10px;
+}
+.form label{
+    color: white;
+}
+input[type='file'] {
+    color: rgba(0, 0, 0, 0)
+}
+
+/*Style projets*/
+
+.projet1 h3{
+    display: flex;
+    justify-content: center;
+}
+.projet2 h3{
+    display: flex;
+    justify-content: center;
+}
+.projet2{
+    display: flex;
+    flex-direction: column;
+    border-width: 1px solid;
+    border-radius: 5px;
+    background-color: rgba(255, 192, 203, 0.459);
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    margin-left: 10px;
+    padding: 10px;
+    color:#6200ff ;
+}
+.projet1{
+    display: flex;
+    flex-direction: column;
+    border-width: 1px solid;
+    border-radius: 5px;
+    background-color: rgba(255, 192, 203, 0.459);
+    border: 2px solid rgba(255, 255, 255, 0.815);
+    padding: 10px;
+    color:#6200ff ;
+}
+.projet{
+    display: flex;
+    align-items: row;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
